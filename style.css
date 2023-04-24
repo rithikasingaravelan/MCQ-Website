@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #cccccc;
+}
+h3{
+    font-size: 40px ;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#f857a6,#ff5858);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.rect{
+    width: 10%;
+    height: 6px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,#f857a6,#ff5858);
+}
+.container-fluid{
+    background-color: #f2f2f2;
+    border:none;
+    align-self: center ;
+  }
+.form-control{
+    background-color: transparent ;
+    border-radius: 50px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 23px ;
+}
+input:focus
+{
+    border:1px solid #e6e6e6 ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px ;
+    outline-offset: 0px;
+    outline: none ;
+}
+.btn{
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to right,#f857a6,#ff5858) border-box ;
+  color: #313149;
+  padding: 5px 7px;
+  border: 2px solid transparent ;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 20px;
+  color:#ff5858 ;
+}
+.btn:hover{
+    color:#fff ;
+    border: none;
+    background: linear-gradient(to right,#f857a6,#ff5858) border-box ;
+}
+.btn:focus{
+    outline: none ;
+}
+.questions{
+    cursor: default;
+    border-radius: 1rem;
+}
+#question{
+    color: #666666;
+}
+.option{
+    margin-bottom: 15px;
+    padding: 5px 5px;
+    font-size: 1.2rem;
+    width: 38rem;
+    background: #8c8c8c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.option:hover{
+    color: #4d4d4d;
+    background-color: #e6e6e6;
+}
+ul{
+    position: relative;
+    padding: 0 1.5rem;
+}
+span{
+    border: 1px solid #4d4d4d;
+    display: block;
+    border-radius: 5px;
+}
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
